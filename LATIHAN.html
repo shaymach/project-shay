@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        BELAJAR JavaScript
+    </h1>
+    <script>//1.mencari keliling persegi panjang
+        //memasukan nilai panjang, lebar
+        //menghitung rumus: 2*p + 2*l
+        // menampilkan hasil
+        
+        // memasukan nilai panjang, lebar
+        
+        let panjang = 150;
+        let lebar = 40;
+        
+        //menghitung rumus
+        let hasil = 2 * panjang + 2 * lebar;
+        
+        // menampilkan 
+        console.log( "keliling persegi panjang adalah: " + hasil)
+        
+        //2. luas lingkaran
+        
+        //tentukan phi dan r
+        let phi = 3.14;
+        let r = 10;
+        
+        let hasiL = phi * r * r;
+        
+        console.log("hasil nya: " + hasiL)
+        
+        
+        let Lp = 64;
+        
+        let sisi = Math.sqrt(Lp);
+        
+        let hasilnya = 4 * sisi;
+        
+        console.log (hasilnya)
+        
+        
+        // syarat umur mmebuat KTP
+        //input
+        let umur = 18;
+        
+        //proses/ logika
+        if(umur >=17){
+            result = "membuat KTP"
+        } else {
+            result = "belum bisa membuat KTP"
+        }
+        
+        //output
+        console.log(result)
+        
+        //input
+        let pabp = 86;
+        let math = 82;
+        let DPK = 77;
+        let rata  = (pabp + math + DPK )/3;
+        
+        //proses
+        if(rata >=80 && rata <=100) {
+            grade = "A"
+        } else  { rata >=75 && rata <80  
+            grade = "B"
+        } 
+         { rata >=65 && rata <75
+            grade = "C"
+        }  { rata >=45 && rata <65 
+            grade = "D"
+        } { rata >=0 && rata <45
+            grade = "E"
+        }
+        
+        //output
+        console.log(rata)</script>
+</body>
+</html>
